@@ -6,8 +6,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    environment:
-      name: dev
+    environment: dev
     steps:
-      - name: "no-op"
-        run: echo "::no-op"
+      - name: "deploy"
+        run: echo "done"
